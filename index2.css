@@ -1,0 +1,147 @@
+ 
+.boxalignauto
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+.flexboxcontainer
+{
+     width: 100px;
+}
+.uper
+{
+      position:absolute;
+      top: 250px;
+      right:200px;
+}
+.niche
+{
+      position:relative;
+}
+.responsiveness
+{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+} 
+.innerinresponsiveness
+{
+      background-color: white;
+     display: inline ;
+     flex: 1;
+     flex-wrap :wrap ;
+     min-width: 200px;
+     height: 250px;
+     margin: 20px;
+     border-radius: 10px;
+     padding: 50px;
+     
+}
+.widescreen
+{
+      flex:1;
+      min-width: 250px;
+}
+.inbox
+{
+       display : inline ;
+       flex: 1;
+        flex-wrap: wrap;
+}
+.textcenter
+{
+      margin: auto;
+      text-align: center;
+}
+.logo
+{
+      width: 150px;
+      height: 150px;
+      margin: 20px;
+      padding: 30px;
+      filter : grayscale(100%);
+      transition: 0.4s;
+      
+}
+.logo:hover
+{
+      
+      transition :all ;
+      filter: grayscale();
+      
+            opacity: 0.8;
+            transition: 0.5s;
+           transform: scale(1.1);
+            filter: grayscale(0%);
+            cursor: pointer;
+            
+}
+.div {
+      border: 1px solid black;
+      width: 400px;
+      height: 400px;
+      overflow: scroll;
+      transition: all 0.5s ease;
+    }
+.contactbox
+{
+
+}
+
+
+
+
+
+
+
+
+
+    .h0{
+      font-size: 75px;
+      background: linear-gradient(to right,purple, blue, #f32170,
+      #ff6b08, indigo, #cf23cf, #eedd44,lightgreen,darkgreen);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+     
+    }
+    .button1
+    {
+       border-radius: 35px;  color:red  ; padding: 25px 55px 25px 55px; font-size: 15px; 
+       background-color: black; border-color: rgb(120, 115, 115);
+       color: rgb(250, 252, 252);
+       transition: 1s;
+       transition-timing-function: ease ;
+       border-spacing: 20px;
+       border-collapse: collapse;
+       border-style:solid;
+       border-width: 0.003px;
+       font-size: 15px;
+    }
+    .button1:hover
+    {
+            background-color: #ee0606;
+            transition: 1.2s;
+            border: red;
+            
+    }
+    .inbox1
+    {
+      flex: 1;
+      min-width: 50px;
+      max-width: 90px;
+      overflow: ;
+      top: ;
+    }
+    .nav
+    {
+      stop-opacity: ;
+
+    }
+ 
+
+
+    
